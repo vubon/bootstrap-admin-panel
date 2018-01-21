@@ -2,6 +2,8 @@ body{
 	background-color: #fafafa;
     font-size: .875rem;
 }
+/* Basic CSS Variables */
+.primary-color{color:#484288}
 .bg-dark {
     background-color: #484288!important;
 }
@@ -21,6 +23,9 @@ body{
     background-color: #6666cc;
     border-color: #6666cc;
 }
+.nav-a-white{color:#ffffff;}
+.nav-a-white:hover{color:#ffffff;}
+
 /* Login page  */
 .form-background{
 	background-color: #ffffff;
@@ -65,4 +70,8 @@ body{
     font-size: 1rem;
     background-color: rgba(0, 0, 0, .25);
     box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
 }
