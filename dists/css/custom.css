@@ -25,6 +25,7 @@ body{
 }
 .nav-a-white{color:#ffffff;}
 .nav-a-white:hover{color:#ffffff;}
+a{color:#1604ff;}
 
 /* Login page  */
 .form-background{
@@ -88,6 +89,10 @@ nav.sidebar-sticky .avatar {
 .sidebar-header {padding: 10px 15px;}
 .sidebar-header .title{margin-left: 10px;line-height: 5px;}
 .avatar img{width:70px;}
+.form-control:focus {
+    border-color: #474288;
+    box-shadow: 0 0 0 0.2rem rgba(71, 66, 136, 0.12);
+}
 @media (min-width: 768px){
 	.col-md-2 {max-width: 14.666667%;}
 }
