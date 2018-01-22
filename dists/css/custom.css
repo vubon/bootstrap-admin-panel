@@ -28,11 +28,19 @@ body{
 a{color:#1604ff;}
 
 /* Login page  */
+.login-body{
+    background: linear-gradient(left, #484288 49%,#f2f2f3 49%,#ffffff 100%);
+    background: -moz-linear-gradient(left, #484288, #7575d1 49%, #ffffff 100%);  /* FF3.6+ */
+    background: -webkit-linear-gradient(left, #484288 49%,#f2f2f3 49%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #484288 49%, #f2f2f3 49%, #ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #484288 49%, #f2f2f3 49%, #ffffff 100%); /* IE10+ */
+    background: linear-gradient(left, #484288 49%,#f2f2f3 49%,#ffffff 100%);
+}
 .form-background{
 	background-color: #ffffff;
     margin-top: 25%;
     padding: 70px;
-    box-shadow: 0px 6px 10px 3px #E5E5E5;
+    /* box-shadow: 0px 6px 10px 3px #E5E5E5; */
     border-radius: 5px;
 
 }
